@@ -5,6 +5,7 @@ import {
   FacebookOutlined,
   InstagramOutlined,
   TwitterOutlined,
+  MailOutlined
 } from "@ant-design/icons";
 
 const Social_Icon = () => {
@@ -23,6 +24,9 @@ const Social_Icon = () => {
   const twitter = () => {
     window.open("https://twitter.com/zeyaffayez007");
   };
+  const mailTo=()=>{
+    window.location = "mailto:zeyaffayez007@gmail.com";
+  }
 
   return (
     <>
@@ -30,24 +34,25 @@ const Social_Icon = () => {
         title="Github"
         type="button"
         onClick={github}
-        className="social mx-2 "
-        style={{ fontSize: "3em" }}
+        className="social mx-3 "
+        style={{ fontSize: "3.2em" }}
+      />
+       <MailOutlined
+        title="Facebook"
+        type="button"
+        onClick={mailTo}
+        className=" social mx-3 "
+        style={{ fontSize: "3.2em" }}
       />
       <LinkedinOutlined
         title="LinkedIn"
         type="button"
         onClick={linkedIn}
-        className="social mx-2"
-        style={{ fontSize: "3em" }}
+        className="social mx-3"
+        style={{ fontSize: "3.2em" }}
       />
-      <FacebookOutlined
-        title="Facebook"
-        type="button"
-        onClick={facebook}
-        className=" social mx-2 "
-        style={{ fontSize: "3em" }}
-      />
-      <InstagramOutlined
+     
+      {/* <InstagramOutlined
         title="Instagram"
         type="button"
         onClick={instagram}
@@ -60,7 +65,7 @@ const Social_Icon = () => {
         onClick={twitter}
         className="social mx-2"
         style={{ fontSize: "3em" }}
-      />
+      /> */}
     </>
   );
 };

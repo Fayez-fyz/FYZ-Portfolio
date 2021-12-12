@@ -1,12 +1,16 @@
-import React, { useEffect, useRef } from "react";
-import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
-import ScrollContainer from "react-indiana-drag-scroll";
+import React  from "react";
+// import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
+// import ScrollContainer from "react-indiana-drag-scroll";
 import { Link } from "react-scroll";
 
 const Projects = () => {
   const deploysocial = () => {
     window.open("https://fyz-capstone.netlify.app");
   };
+  const deployblogify = () => {
+    window.open("https://fyz-blogify.netlify.app");
+  };
+
   const deploychatapp = () => {
     window.open("https://fyz-chat-app.netlify.app");
   };
@@ -28,6 +32,10 @@ const Projects = () => {
   //github
   const githubsocial = () => {
     window.open("https://github.com/Fayez-fyz/fyz-capstone-frontend");
+  };
+  
+  const githubblogify = () => {
+    window.open("https://github.com/Fayez-fyz/fyz-blog-app-frontend");
   };
   const githubchatapp = () => {
     window.open("https://github.com/Fayez-fyz/FYZ-Chat-App");
@@ -52,44 +60,44 @@ const Projects = () => {
     window.open("https://github.com/Fayez-fyz");
   };
 
-  const container = useRef(null);
+  // const container = useRef(null);
 
-  useEffect(() => {
-    if (container.current) {
-      container.current.scrollTo(35, 0);
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (container.current) {
+  //     container.current.scrollTo(35, 0);
+  //   }
+  // }, []);
 
-  const scrollLeft = () => {
-    if (container.current) {
-      container.current.scrollBy(322, 0);
-    }
-  };
-  const scrollRight = () => {
-    if (container.current) {
-      container.current.scrollBy(-322, 0);
-    }
-  };
+  // const scrollLeft = () => {
+  //   if (container.current) {
+  //     container.current.scrollBy(322, 0);
+  //   }
+  // };
+  // const scrollRight = () => {
+  //   if (container.current) {
+  //     container.current.scrollBy(-322, 0);
+  //   }
+  // };
 
   return (
     <>
-      <section style={{ backgroundColor: "#121222" }} name="project">
+      <section  name="project">
         <div className="container py-5">
           <div>
-            <h1 className=" text-light text-center " id="montserrat">
+            <h1 className=" text-center " id="montserrat">
               Projects
             </h1>
-            <hr className="w-100 text-light mx-auto" />
+            <hr className="w-100  mx-auto" />
           </div>
           <div>
-            <ScrollContainer
+            {/* <ScrollContainer
               className="scroll-container mt-5"
               innerRef={container}
-            >
-              <Link smooth={true}>
-                <div className="row flex-nowrap">
-                  <div className="col-md-4" style={{ width: "28rem" }}>
-                    <div className="card cd border border-5 rounded-3 ">
+            > */}
+              {/* <Link smooth={true}> */}
+                <div className="row d-flex justify-content-center">
+                  <div className="col-md-4 my-2" style={{ width: "23rem" }}>
+                    <div className="card cd border border-5 border-dark rounded-3 ">
                       <img
                         src="/images/social.jpg"
                         className="card-img"
@@ -114,8 +122,34 @@ const Projects = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-4" style={{ width: "28rem" }}>
-                    <div className="card cd border border-5 rounded-3 ">
+                  <div className="col-md-4 my-2" style={{ width: "23rem" }}>
+                    <div className="card cd border border-5 border-dark rounded-3 ">
+                      <img
+                        src="/images/blog-app.png"
+                        className="card-img"
+                        alt="blog app"
+                      />
+                      <div className="card-img-overlay" id="playfair">
+                        <div className=" text-center my-5">
+                          <h5 className="text-white fs-2 ">Blog App</h5>
+                          <a
+                            className="btn btn-outline-success text-white  border-white mx-1"
+                            onClick={deployblogify}
+                          >
+                            Deploy Link
+                          </a>
+                          <a
+                            className="btn btn-outline-primary text-white border-white mx-1"
+                            onClick={githubblogify}
+                          >
+                            Github Link
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4 my-2" style={{ width: "23rem" }}>
+                    <div className="card cd border border-5 border-dark  rounded-3 ">
                       <img
                         src="/images/chat-app.jpg"
                         className="card-img"
@@ -140,8 +174,8 @@ const Projects = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-4" style={{ width: "28rem" }}>
-                    <div className="card cd border border-5 rounded-3">
+                  <div className="col-md-4 my-2" style={{ width: "23rem" }}>
+                    <div className="card cd border border-5 border-dark  rounded-3">
                       <img
                         src="/images/cribs.jpg"
                         className="card-img "
@@ -166,8 +200,8 @@ const Projects = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-4" style={{ width: "28rem" }}>
-                    <div className="card cd border border-5 rounded-3">
+                  <div className="col-md-4 my-2" style={{ width: "23rem" }}>
+                    <div className="card cd border border-5 border-dark  rounded-3">
                       <img
                         src="/images/money-manager.jpg"
                         className="card-img "
@@ -192,8 +226,8 @@ const Projects = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-4 " style={{ width: "28rem" }}>
-                    <div className="card cd border border-5 rounded-3">
+                  {/* <div className="col-md-4 my-2" style={{ width: "23rem" }}>
+                    <div className="card cd border border-5 border-dark  rounded-3">
                       <img
                         src="/images/todoapp.jpg"
                         className="card-img "
@@ -217,9 +251,9 @@ const Projects = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-md-4" style={{ width: "28rem" }}>
-                    <div className="card cd border border-5 rounded-3">
+                  </div> */}
+                  <div className="col-md-4  my-2" style={{ width: "23rem" }}>
+                    <div className="card cd border border-5 border-dark  rounded-3">
                       <img
                         src="/images/formik.jpg"
                         className="card-img"
@@ -244,8 +278,8 @@ const Projects = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-4" style={{ width: "28rem" }}>
-                    <div className="card cd border border-5 rounded-3">
+                  {/* <div className="col-md-4  my-2" style={{ width: "23rem" }}>
+                    <div className="card cd border border-5 border-dark  rounded-3">
                       <img
                         src="/images/cryptoapi.jpg"
                         className="card-img "
@@ -269,12 +303,12 @@ const Projects = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
-              </Link>
-            </ScrollContainer>
+              {/* </Link> */}
+            {/* </ScrollContainer> */}
           </div>
-
+{/* 
           <div className="text-center mt-4">
             <button
               onClick={scrollRight}
@@ -288,11 +322,11 @@ const Projects = () => {
             >
               <ArrowRightOutlined className="text-white h5" />
             </button>
-          </div>
+          </div> */}
 
-          <div className="d-flex justify-content-center mt-3">
+          <div className="d-flex justify-content-center my-2">
             <a
-              className="btn btn-outline-secondary border-white text-white"
+              className="btn btn-outline-secondary"
               onClick={github}
             >
               See more

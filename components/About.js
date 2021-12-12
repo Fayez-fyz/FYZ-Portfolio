@@ -1,11 +1,11 @@
 import React from "react";
 import "devicon";
-
+import Image from "next/image";
 const About = () => {
   return (
     <>
       <section name="about">
-        <div className="container py-5 ">
+        <div className="container py-5">
           <div>
             <h1 className="display-5 text-center " id="montserrat">
               About
@@ -13,20 +13,20 @@ const About = () => {
             <hr className="w-100 mx-auto" />
           </div>
           <div className="row">
-            <div className="col-lg-8">
-              <div className="card" id="about_card">
+            <div className="col-lg-12">
+              <div className="card abt-card mb-3 mx-auto" style={{ maxWidth: "90%",backgroundColor: "#EAEAFF" }}>
                 <div className="row g-0">
                   <div className="col-md-4">
                     <img
                       src="/images/fz_pic.jpg"
-                      className="img-fluid"
                       alt="fyz"
                       id="pic"
+                      className="img-fluid rounded-start"
                     />
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
-                      <p className="card-text fw-bold" id="montserrat">
+                      <p className="card-text fw-bold my-3" id="montserrat">
                         Hello! I'm Fayez, a Full stack developer from Tamil
                         Nadu,India.
                         <br /> <br />
@@ -46,97 +46,14 @@ const About = () => {
                         football, explore new places with friends , coding,
                         designing.
                       </p>
+                      <blockquote className="blockquote lead text-center fw-bold mt-5 fs-5">
+                        <p>
+                          "I may not to be perfect,but I am surely of some help"
+                        </p>{" "}
+                      </blockquote>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4">
-              <div
-                className=" text-white text-center py-3 mt-1 h-100"
-                style={{ backgroundColor: "#121222" }}
-              >
-                <div className="col-md-12">
-                  <h4 className="text-white " id="montserrat">
-                    SKILLS
-                  </h4>
-                  <hr className="w-75 mx-auto" />
-                  <div className="row row-cols-3 mx-4">
-                    <i
-                      className="devicon-html5-plain colored my-3"
-                      id="skills"
-                      title="HTML"
-                    ></i>
-                    <i
-                      className="devicon-css3-plain colored my-3"
-                      id="skills"
-                      title="CSS"
-                    ></i>
-                    <i
-                      className="devicon-javascript-plain colored my-3"
-                      id="skills"
-                      title="JavaScript"
-                    ></i>
-                    <i
-                      className="devicon-bootstrap-plain colored my-3"
-                      id="skills"
-                      title="Bootstrap"
-                    ></i>
-                    <i
-                      className="devicon-materialui-plain colored my-3"
-                      id="skills"
-                      title="Material UI"
-                    ></i>
-                    <i
-                      className="devicon-react-original colored my-3"
-                      id="skills"
-                      title="React"
-                    ></i>
-                    <i
-                      className="devicon-nodejs-plain colored my-3"
-                      id="skills"
-                      title="Node JS"
-                    ></i>
-                    <i
-                      className="devicon-express-original my-3"
-                      id="skills"
-                      title="Express JS"
-                    ></i>
-                    <i
-                      className="devicon-mongodb-plain colored  my-3"
-                      id="skills"
-                      title="Mongo DB"
-                    ></i>
-                    <i
-                      className="devicon-nextjs-line my-3"
-                      id="skills"
-                      title="Next JS"
-                    ></i>
-                    <i
-                      className="devicon-github-original my-3"
-                      id="skills"
-                      title="Github"
-                    ></i>
-                    <i
-                      className="devicon-heroku-original colored my-3"
-                      id="skills"
-                      title="Heroku"
-                    ></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-12">
-              <div
-                className="text-light py-3 my-2"
-                style={{ backgroundColor: "#121222" }}
-              >
-                <blockquote className="blockquote lead text-center fs-4">
-                  <p>"I may not to be perfect,but I am surely of some help"</p>{" "}
-                </blockquote>
               </div>
             </div>
           </div>

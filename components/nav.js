@@ -40,6 +40,12 @@ const nav = () => {
               </Link>
             </li>
             <li className="nav-item mx-1">
+              <Link to="skill" smooth={true}>
+                {" "}
+                <a className="nav-link">Skills</a>
+              </Link>
+            </li>
+            <li className="nav-item mx-1">
               <Link to="project" smooth={true}>
                 {" "}
                 <a className="nav-link">Projects</a>
