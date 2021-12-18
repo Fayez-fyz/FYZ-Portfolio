@@ -76,7 +76,7 @@ const Contact = () => {
                   {response}
                 </div>
                 <form onSubmit={sendEmail}>
-                  <div className="form-group">
+                  <div className="form-group ">
                     <label className="" htmlFor="name">
                       Name
                     </label>
@@ -92,7 +92,7 @@ const Contact = () => {
                       placeholder="Name"
                     />
                   </div>
-                  <div className="form-group">
+                  <div className="form-group my-2">
                     <label className="" htmlFor="email">
                       Email
                     </label>
@@ -118,7 +118,7 @@ const Contact = () => {
                       name="message"
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
-                      rows="12"
+                      rows="8"
                       required
                       placeholder="Message"
                     />
@@ -134,15 +134,15 @@ const Contact = () => {
               <div className="col-lg-6 ">
               {/* <div className="row row-cols-1 g-4"> */}
           <div className="col">
-              <div className="card h-25 mx-auto cr border border-white border-1 "  onClick={location} style={{ backgroundColor: "#121222" }}>
+              <div className="card mx-auto cr border border-white border-1 "  onClick={location} style={{ backgroundColor: "#121222" }}>
                 <div className="card-body text-center my-2">
                 <EnvironmentOutlined className='my-2'
-                    style={{ fontSize: "3rem", textAlign: "center" }}
+                    style={{ fontSize: "1.85rem", textAlign: "center" }}
                     size={10}
                   >
                     {" "}
                   </EnvironmentOutlined>
-                  <h5 className="card-title text-light my-2">Thanjavur, Tamil Nadu</h5>
+                  <h5 className="card-title text-light  ">Thanjavur, Tamil Nadu</h5>
                   
                 </div>
               </div>
@@ -151,12 +151,12 @@ const Contact = () => {
               <div className="card mx-auto cr  border border-white border-1  my-3 " onClick={tel} style={{ backgroundColor: "#121222" }}>
                 <div className="card-body text-center my-2">
                 <PhoneOutlined className='my-2'
-                    style={{ fontSize: "3rem", textAlign: "center" }}
+                    style={{ fontSize: "1.85rem", textAlign: "center" }}
                     size={10}
                   >
                     {" "}
                   </PhoneOutlined>
-                  <h5 className="card-title text-light my-2">+91-8098838503</h5>
+                  <h5 className="card-title text-light  ">+91-8098838503</h5>
                   
                 </div>
               </div>
@@ -165,12 +165,12 @@ const Contact = () => {
               <div className="card mx-auto cr  border border-white border-1 "  onClick={mailTo} style={{ backgroundColor: "#121222" }}>
                 <div className="card-body text-center my-2">
                 <MailOutlined className='my-2'
-                    style={{ fontSize: "3rem", textAlign: "center" }}
+                    style={{ fontSize: "1.85rem", textAlign: "center" }}
                     size={10}
                   >
                     {" "}
                   </MailOutlined>
-                  <h5 className="card-title text-light my-2">zeyaffayez007@gmail.com</h5>
+                  <h5 className="card-title text-light ">zeyaffayez007@gmail.com</h5>
                   
                 </div>
               </div>

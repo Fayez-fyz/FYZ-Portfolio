@@ -4,7 +4,7 @@ import Social_Icon from "./Social Icon/Social_Icon";
 const Home = () => {
   const download = () => {
     window.open(
-      "https://drive.google.com/file/d/1BMecWQmlOdyswAT9Kvm_N9b_d-jkuEHd/view?usp=sharing"
+      "https://drive.google.com/file/d/1Tu87_WB9bokrPHiEsM3A3jJo3e8F6U9x/view?usp=sharing"
     );
   };
 

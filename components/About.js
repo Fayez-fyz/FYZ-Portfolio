@@ -30,7 +30,7 @@ const About = () => {
                         Hello! I'm Fayez, a Full stack developer from Tamil
                         Nadu,India.
                         <br /> <br />
-                        I have 5 month of experience in MERN technologies.And
+                        I have 5 month of project experience in MERN technologies.And
                         also I have good designing skills ,development skills
                         and problem solving skills I develop web apps with
                         appealing UI and robust performance. Worked in so many

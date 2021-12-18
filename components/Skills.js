@@ -5,18 +5,18 @@ const Skills = () => {
   return (
     <div name='skill'>
       <div
-        className=" text-white text-center  py-5 vh-50 "
+        className=" text-white text-center vh-100  py-5 vh-50 "
         style={{ backgroundColor: "#121222" }}
         
       >
-        <div className="col-lg-12">
+        <div className="col-lg-12 ">
           <div className="container">
             <h1 className=" text-white" id="montserrat">
               Skills
             </h1>
             <hr className="w-100 mx-auto" />
             <div >
-            <div className="row row-cols-6 mx-2">
+            <div className="row row-cols-3 mx-2 pt-4">
               <i
                 className="devicon-html5-plain colored my-3"
                 id="skills"
