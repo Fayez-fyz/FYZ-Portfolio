@@ -20,7 +20,7 @@ const Projects = () => {
     window.open("https://fyz-todo-app.netlify.app/login");
   };
   const deployexpense = () => {
-    window.open("https://fyz-moneymanager.netlify.app/login");
+    window.open("https://fyz-money.netlify.app/");
   };
   const deploysbadmin = () => {
     window.open("https://fayez-formik-crud-react.netlify.app");
@@ -50,7 +50,7 @@ const Projects = () => {
     window.open("https://github.com/Fayez-fyz/Todo_app_react");
   };
   const githubexpense = () => {
-    window.open("https://github.com/Fayez-fyz/money-manager-react");
+    window.open("https://github.com/Fayez-fyz/Money-Manager-Frontend");
   };
   const githubsbadmin = () => {
     window.open("https://github.com/Fayez-fyz/formik-CRUD");
@@ -77,7 +77,7 @@ const githubtodoappb = () => {
   window.open("https://github.com/Fayez-fyz/Todo_app_nodejs");
 };
 const githubexpenseb = () => {
-  window.open("https://github.com/Fayez-fyz/money-manager-nodejs");
+  window.open("https://github.com/Fayez-fyz/Money-Manager-Backend");
 };
 
 
@@ -354,7 +354,7 @@ const githubexpenseb = () => {
               <div className="col-md-4 my-2" style={{ width: "23rem" }}>
                 <div className="card cd border border-5 border-dark  rounded-3">
                   <img
-                    src="/images/money-manager.jpg"
+                    src="/images/money.png"
                     className="card-img "
                     alt="expense"
                   />
@@ -400,6 +400,11 @@ const githubexpenseb = () => {
                           className="devicon-react-original colored fs-2 my-1"
                           id="skills"
                           title="React"
+                        ></i>
+                        <i
+                          className="devicon-bootstrap-plain colored fs-2 my-1"
+                          id="skills"
+                          title="Bootstrap"
                         ></i>
                         <i
                           className="devicon-nodejs-plain colored fs-2 my-1"
@@ -449,14 +454,14 @@ const githubexpenseb = () => {
                             Deploy
                           </a>
                         </div>
-                        <div>
+                        {/* <div>
                           <a
                             className="btn btn-outline-primary text-white border-white mx-1"
                             onClick={githubchatapp}
                           >
                             Backend
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="row row-cols-6 d-flex justify-content-center">
                         <i
@@ -545,14 +550,14 @@ const githubexpenseb = () => {
                             Deploy
                           </a>
                         </div>
-                        <div>
+                        {/* <div>
                           <a
                             className="btn btn-outline-primary text-white border-white mx-1"
                             onClick={githubbreaking}
                           >
                             Backend
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="row row-cols-6 d-flex justify-content-center">
                         <i
