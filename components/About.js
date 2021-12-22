@@ -14,7 +14,10 @@ const About = () => {
           </div>
           <div className="row">
             <div className="col-lg-12">
-              <div className="card abt-card mb-3 mx-auto" style={{ maxWidth: "90%",backgroundColor: "#EAEAFF" }}>
+              <div
+                className="card abt-card mb-3 mx-auto"
+                style={{ maxWidth: "90%", backgroundColor: "#EAEAFF" }}
+              >
                 <div className="row g-0">
                   <div className="col-md-4">
                     <img
@@ -30,18 +33,19 @@ const About = () => {
                         Hello! I'm Fayez, a Full stack developer from Tamil
                         Nadu,India.
                         <br /> <br />
-                        I have 5 month of project experience in MERN technologies.And
-                        also I have good designing skills ,development skills
-                        and problem solving skills I develop web apps with
-                        appealing UI and robust performance. Worked in so many
-                        libraries & frameworks like ReactJS, Bootstrap, NodeJS
-                        worked using so many technologies like Git,heroku. It
-                        does feel amazing to see myself improving.I had
-                        published 10+ webapps on netlify. <br /> <br /> Right
-                        now,I currently going to complete Full stack developer
+                        I love to creating certain things that live on the
+                        internet and also  have good designing skills
+                        ,development skills and problem solving skills. I develop
+                        web apps with appealing UI and robust performance. Right
+                        now, I currently going to complete Full stack developer
                         course in Guvi geek network private limited. In this
                         course i participated two hackathons, one capstone and
                         more mini projects.
+                        <br /> <br />
+                        Now I'm currently looking for challenging, respectable and
+                        responsible work that can form out my personal and
+                        professional growth and helps me to contribute
+                        effectively to the company.
                         <br /> <br />I have many hobbies like play table tennis,
                         football, explore new places with friends , coding,
                         designing.
