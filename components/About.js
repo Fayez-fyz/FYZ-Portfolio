@@ -34,7 +34,7 @@ const About = () => {
                         Nadu,India.
                         <br /> <br />
                         I love to creating certain things that live on the
-                        internet and also  have good designing skills
+                        internet and also have good designing skills
                         ,development skills and problem solving skills. I develop
                         web apps with appealing UI and robust performance. Right
                         now, I currently going to complete Full stack developer
