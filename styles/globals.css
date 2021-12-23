@@ -34,7 +34,12 @@ section {
   align-items: center;
   justify-content: center;
 }
-
+.social{
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #FFF; /* White */
+ }
+ 
 .social:hover {
   transform: scale(1.5);
 }

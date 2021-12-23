@@ -21,7 +21,7 @@ const About = () => {
                 <div className="row g-0">
                   <div className="col-md-4">
                     <img
-                      src="/images/fz_pic.jpg"
+                      src="/images/fayez.jpeg"
                       alt="fyz"
                       id="pic"
                       className="img-fluid rounded-start"

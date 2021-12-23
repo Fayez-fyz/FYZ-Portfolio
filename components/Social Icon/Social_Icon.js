@@ -34,22 +34,22 @@ const Social_Icon = () => {
         title="Github"
         type="button"
         onClick={github}
-        className="social mx-3 "
-        style={{ fontSize: "3.2em" }}
+        className="social  mx-3  "
+        style={{ fontSize: "2em" }}
       />
        <MailOutlined
-        title="Facebook"
+        title="Mail"
         type="button"
         onClick={mailTo}
-        className=" social mx-3 "
-        style={{ fontSize: "3.2em" }}
+        className=" social mx-3  "
+        style={{ fontSize: "2em" }}
       />
       <LinkedinOutlined
         title="LinkedIn"
         type="button"
         onClick={linkedIn}
-        className="social mx-3"
-        style={{ fontSize: "3.2em" }}
+        className="social mx-3 "
+        style={{ fontSize: "2em" }}
       />
      
       {/* <InstagramOutlined
